@@ -1,0 +1,19 @@
+<script>
+export default {
+  data() {
+    return {
+      text: '',
+      text2: ''
+    }
+  }
+}
+</script>
+
+<template>
+  <input v-model="text" placeholder="Type here">
+  <p>{{ text }}</p>
+  
+  <input v-model="text2" placeholder="Type here">
+  <p>{{ text2 }}</p>
+  
+</template>
